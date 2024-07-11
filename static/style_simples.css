@@ -1,0 +1,14 @@
+body{
+    display: block;
+}
+h1{
+    text-align: center;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    margin-inline: 20px;
+}

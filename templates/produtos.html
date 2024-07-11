@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}Página de Produtos{% endblock %}
+
+{% block content %}
+    <h1 class="container-titulo">Produtos</h1>
+    
+    {%if produtos%}
+        {% for produto in produtos %}
+           <div class="produtos">
+            <h2 class="titulo"> {{produto.nome}} </h2>
+            <p class="descricao"> {{produto.descricao}} </p>
+           </div>
+        {% endfor %}
+
+        {% else %}
+        <p>Aguarde o lançamento dos produtos</p>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block title %}Home Page{% endblock %}
+
+{% block content %}
+    <div class="loja">
+        <img src="{{ url_for('static', filename='loja_img.png') }}" alt="" class="img_loja">
+        <img src="{{ url_for('static', filename='loja_frente.jpg') }}" alt="" class="img_loja">
+        <img src="{{ url_for('static', filename='loja_dentro.jpg') }}" alt="" class="img_loja">
+    </div>
+   
+    
+   <section class="introducao">
+    <p>
+        Bem-vindo à Mih's Store, sua nova parada para moda e estilo! Na Mih's Store, acreditamos que a moda é uma forma de expressão pessoal e deve ser acessível, divertida e inspiradora para todos. Nossa missão é oferecer uma ampla variedade de roupas e acessórios que atendam a diferentes gostos e ocasiões, desde o casual do dia a dia até os eventos mais especiais.
+    </p>
+    <p>
+        Nossa loja é especializada em curadoria de peças que combinam qualidade, conforto e estilo. Trabalhamos com uma seleção diversificada de marcas renomadas e designers emergentes para garantir que cada cliente encontre algo que ame. Além disso, estamos comprometidos com a sustentabilidade e buscamos constantemente incorporar práticas mais ecológicas em nossa cadeia de suprimentos.
+    </p>
+    <p>
+        Em Mih's Store, a experiência do cliente é nossa prioridade. Nossa equipe está sempre pronta para ajudar, seja na loja física ou online, oferecendo um atendimento personalizado e dicas de moda. Queremos que você se sinta confiante e satisfeito com cada compra realizada conosco.
+    </p>
+    <p>
+        Convidamos você a explorar nosso site e visitar nossa loja para descobrir as últimas tendências e clássicos atemporais. Na Mih's Store, estamos aqui para ajudar você a encontrar seu estilo único e a se destacar em qualquer ocasião. Agradecemos sua visita e esperamos vê-lo em breve!
+    </p>
+   </section>
+
+{% endblock %}

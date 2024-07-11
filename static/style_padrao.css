@@ -1,0 +1,237 @@
+:root{
+    --bege-claro: #FAF2DA;
+    --roxo-fechado: #8c5862c2; 
+    --uva: #BF6597; 
+    --lilas: #D99ABC;
+    --laranja: #F2A35E; 
+    --coral: #F29863;
+    --rosa: #F38EBA;
+}
+body{
+    background-color: --bege-claro;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container-header-nav{
+    display: inline-flex;
+    background-color:var(--lilas);
+    width: 100%;
+    border-radius: 10px;
+}
+.container-nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+}
+.nav-principal{
+    text-decoration: none;
+    color: black;
+    padding: 20px 20px;
+    margin: 20px;
+    background-color: var(--uva) ;
+    border-radius: 10px;
+}
+
+.nav-principal:hover{
+    background-color: var(--roxo-fechado);
+    transform: scale(1.2);
+    color: #ffffff;
+    box-shadow: 2px 4px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.introducao p{
+    text-align: justify;
+    margin-block: 7px;
+}
+
+/* imagens da home page */
+.loja{
+    display: flex;
+    width: 100%;
+   align-items: center;
+   justify-content: center;
+}
+
+
+.img_loja{
+    width: 300px;
+    height: auto;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.img_loja:hover{
+    transform: scale(1.3);
+    margin: 10px;
+}
+/* estilos contato.html */
+.container-contato{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-contato article{
+    width: 450px;
+    height: 350px;
+    background-color: var(--rosa);
+    padding: 10px;
+    margin: 30px;
+}
+
+label, input, button{
+    display: block;
+    margin-block: 10px;
+    align-content: center;
+    justify-content: center;
+}
+
+.entre-em-contato{
+    width: 30%;
+    margin: 15px;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    text-align: center; 
+}
+
+.container-cadastro{
+    border-radius: 15px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+}
+
+.text{
+    text-align: center;
+}
+
+.entre-em-contato a{
+    text-decoration: none;
+    background-color: var(--uva);
+    color: black;
+    border-radius: 15px;
+    padding-block: 30px;
+    padding-inline: 30px;
+}
+
+.entre-em-contato>.e-mail{
+    margin: 40px;
+}
+.entre-em-contato>.telefone{
+    margin: 40px;
+}
+
+.entre-em-contato a:hover{
+    transform: scale(1.4);
+    background-color: var(--roxo-fechado);
+    color:white;
+}
+
+button{
+    border: none;
+    background-color: var(--uva);
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+input{
+    border: none; 
+    border-radius: 5px;
+    height: 20px;
+}
+
+button:hover{
+    background-color: var(--roxo-fechado);
+}
+
+/* página produtos */
+.container-titulo{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin: 10px 15px; 
+    background-color: var(--roxo-fechado);
+    color: white;
+    border-radius: 5px;
+}
+.produtos{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--uva);
+    color: black;
+    border-radius: 15px;
+    width: 300px;
+    height: 100px; 
+    text-align: center;
+    margin-left: 10px;
+    margin-block: 10px;
+}
+.produtos>.descricao{
+    text-align: center;
+    margin: 15px;
+}
+
+.produtos>.titulo{
+    text-align: center;
+    width: 90%;
+    height: auto;
+    margin: 10px 15px; 
+    background-color: var(--roxo-fechado);
+    color: white;
+    border-radius: 5px;
+}
+
+.produtos:hover{
+    transform: scale(0.8);
+    box-shadow: 2px 4px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* estilos do footer */
+hr{
+    border: 1px solid black;
+    margin-bottom: 0;
+}
+.container-footer{
+    text-align: center; 
+    padding: 20px; 
+    background-color: var(--rosa);
+    padding-block: 4px;
+    border-radius: 10px;
+}
+
+.footer-text {
+    margin-bottom: 10px;     
+}
+
+
+.footer-links {
+    display: flex; 
+    justify-content: center;
+}
+
+.nav-footer{
+    text-decoration: none;
+    margin: 20px; 
+    color: black;
+}
+
+.nav-footer:hover{
+    text-decoration: underline;
+}
