@@ -3,16 +3,16 @@
 
 {% block content %}
     <h1 class="container-titulo">Produtos</h1>
-    
-    {%if produtos%}
+    <section class="produtos">
+        {%if produtos%}
         {% for produto in produtos %}
-           <div class="produtos">
+           <div class="produto">
             <h2 class="titulo"> {{produto.nome}} </h2>
             <p class="descricao"> {{produto.descricao}} </p>
            </div>
         {% endfor %}
-
         {% else %}
         <p>Aguarde o lançamento dos produtos</p>
-{% endif %}
+        {% endif %}
+    </section>
 {% endblock %}

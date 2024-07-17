@@ -1,5 +1,14 @@
-body{
-    display: block;
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bege-claro);
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h1{
     text-align: center;
@@ -8,6 +17,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: auto;
 }
 p{
     margin-inline: 20px;
